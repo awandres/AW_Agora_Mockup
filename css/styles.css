@@ -136,8 +136,8 @@ li:before {
 #side-bar {
   background-color:#3d1c0f;
   height:334px;
-  width:70%;
-  min-width:1105px;
+  width:32%;
+  /* min-width:1105px; */
   margin-left:0;
   margin-top:70px;
   margin-bottom:30px;
@@ -149,6 +149,20 @@ li:before {
   float:left;
   margin-top:-45px;
   margin-right:50px;
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  -moz-animation-name: pulse;
+  -o-animation-name: pulse;
+  animation-name: pulse;
+  animation-duration: 2000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#side-bar-text {
+  display:none;
 }
 
 #side-bar p {
