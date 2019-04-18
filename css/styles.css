@@ -9,7 +9,7 @@ body {
   padding: 0;
 }
 
-.wrapper {
+#wrapper {
   width:90%;
   overflow-x:hidden;
   margin:auto;
@@ -62,7 +62,7 @@ p {
   /* padding:25px 200px 25px 180px; */
 }
 
-.icon-section {
+#icon-section {
   display: flex;
   font-size: 1.5em;
   padding: 50px 0px;
@@ -101,7 +101,7 @@ li:before {
   /* color: darkgreen; */
 }
 
-.parallax-section {
+#parallax-section {
   height: 400px;
   width: 100%;
   background-image: url('../img/ParallaxOne_5.jpg');
@@ -116,16 +116,16 @@ li:before {
   padding-right:10px;
 }
 
-.parallax-section h2 {
+#parallax-section h2 {
   font-size:3.5em;
   line-height: 60px;
 }
 
-.parallax-section p {
+#parallax-section p {
   font-size:1.8em;
 }
 
-.parallax-section div {
+#parallax-section div {
   padding-top:50px;
   padding-left:60px;
   height:100%;
@@ -133,7 +133,7 @@ li:before {
   margin:auto;
 }
 
-.side-bar {
+#side-bar {
   background-color:#3d1c0f;
   height:334px;
   width:70%;
@@ -144,20 +144,20 @@ li:before {
   padding:0px 50px;
 }
 
-.side-bar img {
+#side-bar img {
   display:inline;
   float:left;
   margin-top:-45px;
   margin-right:50px;
 }
 
-.side-bar p {
+#side-bar p {
   color:white;
   padding: 15px 0px;
   line-height:40px;
 }
 
-.gears-section {
+#gears-section {
   height:600px;
   width:100%;
   background-color:#A41F25;
@@ -168,17 +168,17 @@ li:before {
   padding-right:40px;
 }
 
-.gears-section h2 {
+#gears-section h2 {
   color:yellow;
   font-size:2.5em;
   margin-top:10px;
 }
 
-.gears-section p {
+#gears-section p {
   color:white;
 }
 
-.last-section-bg {
+#last-section-bg {
   background-image:url("../img/TransparentArrowBkgd.jpg");
   background-repeat:no-repeat;
   background-size: auto 60%;
@@ -186,14 +186,14 @@ li:before {
 
 }
 
-.last-section {
+#last-section {
   background: linear-gradient(
     rgba(255,255,255,1) 0%,
     rgba(255,255,255,.9) 50%,
     rgba(255,255,255,0) 100%);
 }
 
-.inner-content-section {
+#inner-content-section {
   background: linear-gradient(
     rgba(255,255,255,1) 0%,
     rgba(255,255,255,1) 30%,
@@ -215,11 +215,11 @@ li:before {
   margin:20px;
 }
 
-.inner-content-section h2 {
+#inner-content-section h2 {
   font-size:2.5em;
 }
 
-.free-shipping {
+#free-shipping-section {
   background-color:#495E40;
   display:flex;
   width:100%;
@@ -231,7 +231,7 @@ li:before {
   margin-left:-20px;
 }
 
-.shipping-flex-section {
+#shipping-flex-section {
   justify-content: center;
   align-items:center;
   display:flex;
@@ -260,11 +260,11 @@ font-weight:700;
 margin:0;
 }
 
-.free-shipping div {
+#free-shipping-section div {
   height:70%;
 }
 
-.free-shipping div img {
+#free-shipping-section div img {
   height:250px;
   width:100%;
   min-width:140px;
@@ -283,14 +283,14 @@ margin:0;
 
 
 
-.button-div {
+#button-div {
   width:576px;
   margin:auto;
   color: white;
   padding-bottom:40px;
 }
 
-.button-div p:nth-child(3) {
+#button-div p:nth-child(3) {
   font-size:.8em;
 }
 
@@ -358,7 +358,7 @@ button:nth-of-type(2) {
     display:none;
   }
 
-  .gears-section {
+  #gears-section {
     background-position: 700px -700px;
     height:100%;
   }
@@ -377,26 +377,26 @@ button:nth-of-type(2) {
     padding:0px 5px;
   }
 
-  .side-bar {
+  #side-bar {
     height:100%;
     min-width:400px;
     padding-left:10px;
   }
 
-  .parallax-section div {
+  #parallax-section div {
     padding-left:10px;
     padding-top:40px;
     /* padding-bottom:15px; */
   }
 
-  .parallax-section h2 {
+  #parallax-section h2 {
     font-size:2.5em;
     line-height: 40px;
   }
 
 
 
-  .wrapper {
+  #wrapper {
     width:100%;
   }
 
@@ -420,11 +420,11 @@ button:nth-of-type(2) {
     padding-left:5px;
   }
 
-  .side-bar p {
+  #side-bar p {
     padding-right:10px;
   }
 
-  .parallax-section {
+  #parallax-section {
     background-attachment: scroll;
   }
 }
@@ -432,28 +432,28 @@ button:nth-of-type(2) {
 /* BROWSER RESIZING RESPONSIVE */
 @media (max-width:600px) {
 
-  .wrapper {
+  #wrapper {
     width:100%;
   }
 
-  .icon-section {
+  #icon-section {
     flex-direction:column;
     height:100%;
   }
 
-  .parallax-section h2 {
+  #parallax-section h2 {
     font-size:1.7em;
   }
 
-  .parallax-section p {
+  #parallax-section p {
     font-size:1.3em;
   }
 
-  .parallax-section {
+  #parallax-section {
     padding-left:5px;
   }
 
-  .shipping-flex-section {
+  #shipping-flex-section {
     flex-direction:column;
   }
 
@@ -461,17 +461,17 @@ button:nth-of-type(2) {
     padding-right:30px;
   }
 
-  .free-shipping {
+  #free-shipping-section {
   }
 
-  .free-shipping div img {
+  #free-shipping-section div img {
     height:250px;
     width:initial;
     min-width:unset;
     padding
   }
 
-  .button-div {
+  #button-div {
     width:100%;
   }
 
@@ -487,11 +487,11 @@ button:nth-of-type(2) {
     margin-bottom:-10px;
   }
 
-  .parallax-section {
+  #parallax-section {
     background-position:-300px 0px;
   }
 
-  .side-bar img {
+  #side-bar img {
     width:100%;
     margin:auto;
   }
@@ -499,7 +499,7 @@ button:nth-of-type(2) {
 
 /* SMALL PHONE RESPONSIVE */
 @media (max-width:360px) {
-  .side-bar img {
+  #side-bar img {
     margin-left:-30px;
   }
 }
